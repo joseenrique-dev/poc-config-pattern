@@ -3,7 +3,7 @@ import "mocha";
 import ConfigRoot from '../config-pattern/rootConfig';
 import SinglentonGeneralConfiguration from '../singlenton/singlenton.config';
 
-debugger
+
 describe("My Pattern config", () => {
     context('Test Config Root', () => {
         let config = new ConfigRoot();

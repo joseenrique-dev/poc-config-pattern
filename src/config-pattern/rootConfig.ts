@@ -3,13 +3,13 @@ import PaypalConfig from './payPalConfig';
 
 export default class ConfigRoot {
     public _appUrl: string;
-    public generalVariable2: string;
+    public _dbHost: string;
     public payPalObj: PaypalConfig;
     public bdObj: DBConfig;
 
     constructor() {
-        this.generalVariable1 = '...';
-        this.generalVariable2 = '...';
+        this._appUrl = 'http://someUrl.test';
+        this._dbHost = 'mainConection:43.453.343.33';
         this.payPalObj = new PaypalConfig();
         this.bdObj = new DBConfig();
     }

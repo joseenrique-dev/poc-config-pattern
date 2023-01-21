@@ -1,9 +1,9 @@
 {
   "name": "poc_config",
   "version": "1.0.0",
-  "description": "Patrones de diseño con TypeScript",
+  "description": "POC config pattern",
   "scripts": {
-    "pattern-config": "mocha -r ts-node/register src/config-pattern/*.spec.ts"
+    "pattern-config": "mocha -r ts-node/register src/test/*.spec.ts"
   },
   "author": "José Enrique López Obeso",
   "license": "ISC",

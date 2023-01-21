@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import "mocha";
-import ConfigRoot from './rootConfig';
+import ConfigRoot from '../config-pattern/rootConfig';
 import SinglentonGeneralConfiguration from '../singlenton/singlenton.config';
 
 debugger
